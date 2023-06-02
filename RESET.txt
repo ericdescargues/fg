@@ -1,0 +1,1 @@
+La commande git reset est utilisée pour déplacer la branche courante et/ou l'index vers un commit spécifié, ce qui permet d'annuler ou de réorganiser l'historique des commits. Elle peut être utilisée de différentes manières en fonction des options fournies. Voici quelques utilisations courantes de git reset :
