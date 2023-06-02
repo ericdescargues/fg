@@ -1,0 +1,1 @@
+La commande branch permet de créer une nouvelle branche sur un dépot GIT
