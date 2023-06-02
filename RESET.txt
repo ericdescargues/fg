@@ -3,3 +3,7 @@ La commande git reset est utilisée pour déplacer la branche courante et/ou l'i
 Annuler les modifications locales non confirmées :
 git reset --hard HEAD
 Cette commande annule toutes les modifications non confirmées dans le répertoire de travail et rétablit l'index et la branche courante à l'état du dernier commit.
+
+Supprimer un commit spécifique et annuler ses modifications :
+git reset --hard <commit>
+Remplace la branche courante et l'index par le commit spécifié, annulant ainsi les commits ultérieurs et supprimant les modifications correspondantes de l'historique. Cette commande doit être utilisée avec prudence, car les commits supprimés peuvent être difficiles à récupérer.
