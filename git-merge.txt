@@ -1,0 +1,2 @@
+La fonction merge permet de fusionner deux ou plusieurs branches. Permet de fusionner l'historique des développements ensemble. 
+Attention aux conflits. 
