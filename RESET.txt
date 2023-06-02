@@ -15,3 +15,7 @@ Déplace la branche courante vers le commit spécifié tout en conservant les mo
 Déplacer la branche courante sans modifier l'index ou le répertoire de travail :
 git reset <commit>
 Déplace simplement la branche courante vers le commit spécifié, sans modifier l'index ni le répertoire de travail. Les modifications restent dans l'index en tant que modifications non confirmées.
+
+Annuler les commits et fusionner les modifications dans un nouveau commit :
+git reset --mixed <commit>
+Déplace la branche courante vers le commit spécifié, annulant les commits ultérieurs. Les modifications des commits annulés sont ajoutées à l'index en tant que modifications non confirmées, vous permettant de créer un nouveau commit consolidant les modifications.
