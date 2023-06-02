@@ -11,3 +11,7 @@ Remplace la branche courante et l'index par le commit spécifié, annulant ainsi
 Annuler un commit tout en conservant les modifications dans l'index :
 git reset --soft <commit>
 Déplace la branche courante vers le commit spécifié tout en conservant les modifications du commit dans l'index. Les modifications apparaîtront comme étant "à valider" (staged), vous permettant de réexécuter le commit avec des modifications supplémentaires ou de les annuler complètement.
+
+Déplacer la branche courante sans modifier l'index ou le répertoire de travail :
+git reset <commit>
+Déplace simplement la branche courante vers le commit spécifié, sans modifier l'index ni le répertoire de travail. Les modifications restent dans l'index en tant que modifications non confirmées.
